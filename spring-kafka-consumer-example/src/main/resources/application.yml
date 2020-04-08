@@ -1,0 +1,9 @@
+server:
+  port: 8088
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    group: USER_CREATED_GROUP
+    topic:
+      userCreated: USER_CREATED_TOPIC
+      
